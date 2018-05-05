@@ -1,0 +1,55 @@
+.row>div {
+    /* border: 1px solid #bbb; */
+}
+
+img.avatar {
+    height: 7em;
+}
+
+body {
+    background-color: #555;
+}
+
+.mainwrapper {
+    margin: 1em auto;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2em 3em;
+}
+
+.v-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.row.underline {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 3px solid #bbb;
+}
+
+ul.contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.tlitem {
+    padding-left: 0;
+}
+
+ul.tlitem>li:first-child {
+    font-style: italic;
+    list-style: none;
+}
+
+ul.tlitem>li:nth-child(2) {
+    font-weight: bold;
+    list-style: none;
+}
+
