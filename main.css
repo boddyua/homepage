@@ -32,8 +32,7 @@ a:visited {
 }
 
 img.avatar {
-    max-width: 100%;
-    height: auto;
+    height: 7em;
 }
 
 span.meaningful-remark {
