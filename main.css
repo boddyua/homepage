@@ -32,9 +32,13 @@ a:visited {
 }
 
 img.avatar {
-    height: 7em;
+    max-width: 100%;
+    height: auto;
 }
 
+span.meaningful-remark {
+    font-size: 1.2em;
+}
 
 .row.underline {
     margin-top: 1em;
