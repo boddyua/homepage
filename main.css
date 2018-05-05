@@ -2,12 +2,16 @@
     /* border: 1px solid #bbb; */
 }
 
-img.avatar {
-    height: 7em;
-}
-
 body {
     background-color: #555;
+}
+
+a, body {
+    color: #555;
+}
+
+a:visited {
+    color: #555;
 }
 
 .mainwrapper {
@@ -25,6 +29,14 @@ body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+img.avatar {
+    height: 7em;
+}
+
+span.meaningful-remark {
+    font-size: 1.2em;
 }
 
 .row.underline {
